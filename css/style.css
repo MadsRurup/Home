@@ -1,0 +1,26 @@
+body {
+    background-color: #16161A;
+    margin: 0;
+    font-family: Helvetica, Sans-Serif;
+    color: white;
+    font-weight: bold;
+}
+a { color: inherit; } 
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+.nav_link {
+    list-style-type: none;
+    font-size: large;
+    color: #a6a8b8
+}
+.nav_link:hover {
+    list-style-type: none;
+    color: white;
+    transition: 0.3s all;
+}
